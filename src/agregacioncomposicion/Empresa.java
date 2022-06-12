@@ -8,11 +8,12 @@ package agregacioncomposicion;
  *
  * @author PC
  */
-public class Cliente {
+public class Empresa {
     private String nombre;
+    Cliente [] clientes;
     
-    public Cliente(String nombre){
-        this.nombre = nombre;
+    public Empresa(int n){
+        clientes = new Cliente[n];
     }
     
     void setNombre(String nombre){
