@@ -4,6 +4,7 @@
  */
 package agregacioncomposicion;
 
+
 /**
  *
  * @author PC
@@ -23,4 +24,5 @@ public class Empresa {
     String getNombre(){
         return nombre;
     }
+    
 }

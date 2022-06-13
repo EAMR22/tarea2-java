@@ -20,6 +20,6 @@ public class Cliente {
     }
     
     String getNombre(){
-        return nombre;
+        return this.nombre;
     }
 }
