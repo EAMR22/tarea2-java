@@ -15,11 +15,15 @@ public class Cliente {
         this.nombre = nombre;
     }
     
-    void setNombre(String nombre){
+    public void setNombre(String nombre){
         this.nombre = nombre;
     }
     
-    String getNombre(){
+    public String getNombre(){
         return this.nombre;
+    }
+    
+    public String toString(){
+        return "Nombre del cliente: " + getNombre();
     }
 }
