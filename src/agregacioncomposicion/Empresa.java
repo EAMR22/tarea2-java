@@ -38,16 +38,17 @@ public class Empresa {
     }
     
     public void MostrarClientes(){
-        System.out.println("Mostrando los clientes: ");
+        System.out.println("Mostrando los clientes: \n");
         for(int i = 0; i < clientes.size(); i++){
             System.out.println(clientes.get(i));
         }
     }
     
     public void MostrarEmpleados(){
-        System.out.println("Mostrando los empleados: ");
+        System.out.println("\n");
+        System.out.println("Mostrando los empleados: \n");
         for(int i = 0; i < empleados.length; i++){
-            System.out.println(empleados[i].toString());
+            System.out.println(empleados[i]);
         }
     }
 }

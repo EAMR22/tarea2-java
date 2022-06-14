@@ -17,7 +17,7 @@ public class AgregacionComposicion {
     public static void main(String[] args) {
         // TODO code application logic here
         Empresa miEmpresa;
-        miEmpresa = new Empresa("Mi empresa: ");
+        miEmpresa = new Empresa("Mi empresa: \n");
         System.out.println(miEmpresa.getNombre());
         
         // Realizacion de agregacion en Cliente:
